@@ -1,4 +1,4 @@
-# FE de PDT para TAD
+# FE de pasarela de pagos
 
 Proyecto creado con [React App](https://github.com/facebook/create-react-app).
 
