@@ -1,0 +1,15 @@
+select{
+    text-align-last: center;
+    text-align: center;
+    height: 58px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    width: 100%;
+    margin-bottom: 0.25rem;
+    background: #fff;
+}
+.select_half_width{
+    width: 49%;
+    margin-right: .25rem;
+}

@@ -1,0 +1,21 @@
+.header{
+    background: #fff;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+    height: 72px;
+    padding: 8px 16px;
+}
+
+.logo_tad_header{
+    width: 15rem;
+    float: left;
+    grid-column-end: span 3;
+}
+
+@media screen and (max-width:48rem){
+    .logo_tad_header{
+        width: 15rem;
+        margin: auto;
+        grid-column-end: span 12;
+
+    }
+}

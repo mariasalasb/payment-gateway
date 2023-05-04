@@ -1,0 +1,20 @@
+.error_component{
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1.1rem;
+    padding: 16px 8px;
+    min-height: 8rem;
+    margin-bottom: 2rem;
+    color:#FF0000;
+    border: 0.05rem solid #FF0000;
+    background-color:#FFF0C9;
+}
+.confirmation_component>h3{
+    color: black;
+}
+.confirmation_component>p{
+    margin-top: 0.5rem;
+}
+.home_banking_details{
+    text-align: left;
+}

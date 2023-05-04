@@ -1,0 +1,23 @@
+#summary_color{
+    color: #767676!important;
+}
+.title, .description{
+    grid-column-end: span 10;
+    text-align: start;
+}
+.summary_items{
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+    color: #767676!important;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.summary_row{
+    min-height: 20px;
+    padding: 16px 15px;
+}
+.border_botton{
+    border-bottom: 1px solid #ccc;
+}
+

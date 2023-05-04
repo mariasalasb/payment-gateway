@@ -1,0 +1,79 @@
+
+.App {
+  text-align: center;
+  font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.grid{
+  display: grid;
+  gap: 0.2rem 0;
+  grid-template-columns: repeat(12, 1fr);
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  font-size:2.285714em;
+}
+h2,h4,p{
+  margin: 0;
+
+}
+h2{
+  font-size: 1.7rem;
+}
+h4{
+  font-size: 1.5rem;
+}
+p{
+  color: #767676;
+  font-size: 1.1rem;
+}
+.main_layout{
+  display: grid;
+  grid-template-columns: 740px 370px;
+  gap: 30px;
+  margin-left: 15%;
+  padding-top: 30px;
+  margin-bottom: 5rem;
+}
+.fas{
+  margin-right: 0.5rem;
+}
+
+.col-2{
+  grid-column-end: span 2;
+}
+.col-3{
+  grid-column-end: span 3;
+}
+.col-9{
+  grid-column-end: span 9;
+}
+.col-12{
+  grid-column-end: span 12;
+}
+.align_left{
+  text-align: start;
+}
+.align_right{
+  text-align: end;
+}
+.bold{
+  font-weight: bold;
+}
+.important_modal{
+  background: #daf1f8;
+  border: solid 1px #85d0e7;
+  box-shadow: none;
+  text-align: left;
+  padding-left: 2vw;
+}
+@media screen and (max-width:48rem){
+  .main_layout{
+    grid-template-columns: auto;
+    margin-left: 0;
+    padding: 10px;
+  }
+  
+}

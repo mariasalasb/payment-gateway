@@ -1,0 +1,5 @@
+.personal_and_payment_info{
+    grid-column-end: span 4;
+    grid-column-start: 4;
+}
+

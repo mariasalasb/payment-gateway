@@ -1,0 +1,25 @@
+.payment_methods{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.payment_method_button{
+    background-color: #f9f9f9;
+    color: #000;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    grid-column-end: unset;
+    min-height: 70px;
+    min-width: 170px;
+}
+@media screen and (max-width:48rem){
+    .payment_methods{
+        flex-wrap: wrap;
+        padding: 0.5rem;
+    }
+    a, .payment_method_button{
+        min-width: 100%;
+        margin-bottom: 0.2rem;
+    }
+}

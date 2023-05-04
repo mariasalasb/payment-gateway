@@ -1,0 +1,36 @@
+.last_name_first_name, .cuil, .mail, .address{
+    grid-column-end: span 10;
+    text-align: start;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.last_name_first_name{
+    font-weight: 400;
+}
+
+.personal_info:hover{
+    background:#0695d6;
+    color: #fff;
+}
+
+.button_edit{
+    z-index: 1;
+    top: -8px;
+    right: -65px;
+    position: relative;
+    grid-column-end: span 2;
+}
+
+@media screen and (max-width:48rem){
+    .last_name_first_name{
+        grid-column-end: span 8;
+    }
+    .cuil, .mail, .address{
+        grid-column-end: span 12;
+    }
+    .button_edit{
+        grid-column-end: span 4;
+        max-height: 56px;
+        right: -18px;
+    }
+}

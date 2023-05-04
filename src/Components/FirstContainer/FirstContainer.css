@@ -1,0 +1,6 @@
+.main_container{
+}
+.title, .description{
+    grid-column-end: span 10;
+    text-align: start;
+}

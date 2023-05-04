@@ -1,0 +1,18 @@
+input{
+    text-align: center;
+    height: 54px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    width: 98%;
+    margin-bottom: 0.25rem;
+}
+.input_with_select{
+    width: 45%;
+}
+.input_half_width{
+    width: 48%;
+}
+.input_third_width{
+    width: 32%;
+}
